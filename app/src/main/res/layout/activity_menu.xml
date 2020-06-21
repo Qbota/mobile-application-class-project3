@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/menu"
+    tools:context=".menu.MenuActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10pt"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="50pt"
+                android:onClick="startGame"
+                android:layout_height="50pt"
+                android:src="@drawable/photo1_thumbnail"
+                android:tag="photo1"
+                 />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:onClick="startGame"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:src="@drawable/photo2_thumbnail"
+                android:tag="photo2"
+                 />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:onClick="startGame"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:src="@drawable/photo3_thumbnail"
+                android:tag="photo3"
+                />
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10pt"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo4_thumbnail"
+            android:tag="photo4"
+            />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo5_thumbnail"
+            android:tag="photo5"
+            />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo6_thumbnail"
+            android:tag="photo6"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10pt"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image7"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo7_thumbnail"
+            android:tag="photo7"
+            />
+
+        <ImageView
+            android:id="@+id/image8"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo8_thumbnail"
+            android:tag="photo8"
+            />
+
+        <ImageView
+            android:id="@+id/image9"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo9_thumbnail"
+            android:tag="photo9"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10pt"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image10"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo10_thumbnail"
+            android:tag="photo10"
+            />
+
+        <ImageView
+            android:id="@+id/image11"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo11_thumbnail"
+            android:tag="photo11"
+            />
+
+        <ImageView
+            android:id="@+id/image12"
+            android:onClick="startGame"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:src="@drawable/photo12_thumbnail"
+            android:tag="photo12"
+            />
+    </TableRow>
+
+</TableLayout>
